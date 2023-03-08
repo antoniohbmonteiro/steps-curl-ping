@@ -13,8 +13,8 @@ project_type_tags:
 type_tags:
   - utility
 is_requires_admin_user: false
-is_always_run: false
-is_skippable: false
+is_always_run: true
+is_skippable: true
 dependencies: []
 run_if: ""
 inputs:
@@ -26,10 +26,8 @@ inputs:
       is_required: true
   - curl_params: ""
     opts:
-      title: |-
-        (optional) cURL parameters
+      title: "curl parameters"
       description: |-
         cURL parameters (like: `-dx 'key=some_data'`)
       summary: ""
-      is_required: false
 outputs: []

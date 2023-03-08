@@ -28,8 +28,8 @@ inputs:
   - curl_params: ""
     opts:
       title: "curl parameters"
-      description: |-
-        cURL parameters (-d { "message":"Message send to curl"})
+      description: ""
+      summary: ""
       is_required: true
       is_expand: true
 outputs: []

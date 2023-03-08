@@ -25,7 +25,6 @@ inputs:
       summary: ""
       is_expand: false
       is_required: true
-      is_dont_change_value: false
   - curl_params: ""
     opts:
       title: |-
@@ -35,5 +34,4 @@ inputs:
       summary: ""
       is_expand: false
       is_required: false
-      is_dont_change_value: false
 outputs: []

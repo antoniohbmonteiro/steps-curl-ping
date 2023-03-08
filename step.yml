@@ -28,6 +28,6 @@ inputs:
     opts:
       title: "curl parameters"
       description: |-
-        cURL parameters (like: `-dx 'key=some_data'`)
+        cURL parameters (-d { "message":"Message send to curl"})
       summary: ""
 outputs: []

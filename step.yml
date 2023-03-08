@@ -27,8 +27,9 @@ inputs:
       is_expand: true
   - curl_params: ""
     opts:
-      is_expand: true
       title: "curl parameters"
       description: |-
         cURL parameters (-d { "message":"Message send to curl"})
+      is_required: true
+      is_expand: true
 outputs: []

@@ -23,7 +23,6 @@ inputs:
       title: Full URL
       description: ""
       summary: ""
-      is_expand: false
       is_required: true
   - curl_params: ""
     opts:
@@ -32,6 +31,5 @@ inputs:
       description: |-
         cURL parameters (like: `-dx 'key=some_data'`)
       summary: ""
-      is_expand: false
       is_required: false
 outputs: []

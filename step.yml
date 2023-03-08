@@ -24,10 +24,14 @@ inputs:
       description: ""
       summary: ""
       is_required: true
-  - curl_params: ""
+  - curl_params: |
+      App|${BITRISE_APP_TITLE}
+      Workflow|${BITRISE_TRIGGERED_WORKFLOW_ID}
+      Branch|${BITRISE_GIT_BRANCH}
+      Tag|${BITRISE_GIT_TAG}
+      Message|${BITRISE_GIT_MESSAGE}
     opts:
       title: "curl parameters"
       description: |-
         cURL parameters (-d { "message":"Message send to curl"})
-      summary: ""
 outputs: []
